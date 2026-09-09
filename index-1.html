@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>घर बाजार | राशन + सब्जी + मछली + चिकन</title>
+<style>
+:root{--green:#16803a;--dark:#0b4823;--orange:#f59e0b;--light:#f4fbf5;--text:#183022}
+*{box-sizing:border-box} body{margin:0;font-family:Arial,"Noto Sans Devanagari",sans-serif;color:var(--text);background:#fff}
+header{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid #e5e7eb;display:flex;align-items:center;justify-content:space-between;padding:12px 5%;box-shadow:0 2px 10px #0000000d}
+.logo{font-size:25px;font-weight:800;color:var(--green)} .tag{font-size:11px;color:#666}
+nav a{margin-left:18px;text-decoration:none;color:#333;font-weight:600}.cart{background:var(--green);color:#fff;padding:9px 14px;border-radius:22px}
+.hero{background:linear-gradient(135deg,#eaf8ed,#fff8e8);padding:55px 5%;display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:center}
+.hero h1{font-size:44px;line-height:1.12;margin:0 0 14px;color:var(--dark)}.hero p{font-size:19px;line-height:1.6}
+.badge{display:inline-block;background:#dff3e4;color:var(--green);padding:8px 14px;border-radius:20px;font-weight:700}
+.btn{display:inline-block;padding:13px 20px;border-radius:10px;text-decoration:none;font-weight:800;margin:8px 8px 0 0;border:0;cursor:pointer}
+.primary{background:var(--green);color:#fff}.secondary{background:var(--orange);color:#111}
+.hero-card{background:#fff;border-radius:22px;padding:25px;box-shadow:0 10px 35px #164e2a18;text-align:center}
+.hero-icons{font-size:68px;letter-spacing:10px}
+section{padding:45px 5%;max-width:1200px;margin:auto} h2{text-align:center;font-size:30px;margin:0 0 28px;color:var(--dark)}
+.categories{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.cat{background:var(--light);padding:24px;border-radius:18px;text-align:center;border:1px solid #e1f0e4}.cat b{display:block;font-size:19px;margin-top:8px}.cat span{font-size:42px}
+.products{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.product{border:1px solid #e5e7eb;border-radius:16px;padding:16px;background:#fff}.pic{height:120px;border-radius:12px;background:#f5f7f5;display:flex;align-items:center;justify-content:center;font-size:55px}.product h3{margin:12px 0 5px}.price{font-weight:800;color:var(--green);margin-bottom:10px}.add{width:100%;background:var(--green);color:#fff;border:0;padding:10px;border-radius:9px;font-weight:700;cursor:pointer}
+.info{background:#f7faf7}.delivery{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.info-card{padding:22px;background:#fff;border-radius:16px;border:1px solid #e5e7eb}.info-card h3{margin-top:0}
+.order{background:var(--dark);color:#fff;border-radius:22px;padding:35px;text-align:center}.order h2{color:#fff}.order p{font-size:18px}
+footer{background:#082d17;color:#fff;text-align:center;padding:28px 5%;margin-top:35px}
+#toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#222;color:#fff;padding:12px 18px;border-radius:10px;display:none;z-index:20}
+@media(max-width:800px){nav a{display:none}.hero{grid-template-columns:1fr;padding:35px 5%}.hero h1{font-size:34px}.categories,.products{grid-template-columns:repeat(2,1fr)}.delivery{grid-template-columns:1fr}.cart{padding:8px 11px}}
+@media(max-width:480px){.categories,.products{grid-template-columns:1fr 1fr}.hero-icons{font-size:48px}.tag{display:none}}
+</style>
+</head>
+<body>
+<header>
+  <div><div class="logo">🏠 घर बाजार</div><div class="tag">आपके परिवार का अपना बाजार</div></div>
+  <nav><a href="#home">होम</a><a href="#samaan">सामान</a><a href="#delivery">डिलीवरी</a><a href="#order">ऑर्डर</a></nav>
+  <a class="cart" href="#order">🛒 ऑर्डर</a>
+</header>
+
+<main id="home">
+<section class="hero">
+  <div>
+    <span class="badge">📍 केवल 3 KM के अंदर Home Delivery</span>
+    <h1>ताजा सामान,<br>अब आपके घर तक!</h1>
+    <p>🥬 सब्जी &nbsp; • &nbsp; 🍚 राशन &nbsp; • &nbsp; 🐟 मछली &nbsp; • &nbsp; 🍗 चिकन</p>
+    <a class="btn primary" href="#samaan">🛍️ सामान देखें</a>
+    <a class="btn secondary" href="#order">📲 WhatsApp ऑर्डर</a>
+  </div>
+  <div class="hero-card"><div class="hero-icons">🥬 🍚 🐟 🍗</div><h3>आसान ऑर्डर • तेज डिलीवरी</h3><p>घर बैठे सामान चुनें और WhatsApp से ऑर्डर भेजें।</p></div>
+</section>
+
+<section id="samaan">
+<h2>🛍️ हमारे सामान</h2>
+<div class="categories">
+<div class="cat"><span>🥬</span><b>ताजी सब्जियाँ</b><small>आलू, प्याज, टमाटर आदि</small></div>
+<div class="cat"><span>🍚</span><b>राशन</b><small>चावल, आटा, दाल, तेल आदि</small></div>
+<div class="cat"><span>🐟</span><b>मछली</b><small>उपलब्धता के अनुसार</small></div>
+<div class="cat"><span>🍗</span><b>चिकन</b><small>ऑर्डर के अनुसार</small></div>
+</div>
+</section>
+
+<section>
+<h2>🔥 लोकप्रिय सामान</h2>
+<div class="products">
+<div class="product"><div class="pic">🥔</div><h3>आलू</h3><div class="price">₹ कीमत देखें</div><button class="add" onclick="add('आलू')">ऑर्डर में जोड़ें</button></div>
+<div class="product"><div class="pic">🍅</div><h3>टमाटर</h3><div class="price">₹ कीमत देखें</div><button class="add" onclick="add('टमाटर')">ऑर्डर में जोड़ें</button></div>
+<div class="product"><div class="pic">🍚</div><h3>चावल</h3><div class="price">₹ कीमत देखें</div><button class="add" onclick="add('चावल')">ऑर्डर में जोड़ें</button></div>
+<div class="product"><div class="pic">🍗</div><h3>चिकन</h3><div class="price">₹ कीमत देखें</div><button class="add" onclick="add('चिकन')">ऑर्डर में जोड़ें</button></div>
+</div>
+</section>
+
+<section id="delivery" class="info">
+<h2>🚚 डिलीवरी व्यवस्था</h2>
+<div class="delivery">
+<div class="info-card"><h3>🌅 सुबह</h3><p><b>ऑर्डर:</b> 7:00–10:00</p><p><b>डिलीवरी:</b> 10:00–12:00</p></div>
+<div class="info-card"><h3>🌆 शाम</h3><p><b>ऑर्डर:</b> 2:00–4:00</p><p><b>डिलीवरी:</b> 4:00–6:30</p></div>
+<div class="info-card"><h3>💰 डिलीवरी चार्ज</h3><p>₹100 से कम → ₹10</p><p>₹100–₹299 → ₹5</p><p>₹300+ → <b>FREE</b></p></div>
+</div>
+</section>
+
+<section>
+<h2>⭐ घर बाजार क्यों?</h2>
+<div class="categories">
+<div class="cat">✅<b>ताजा सामान</b></div><div class="cat">📲<b>WhatsApp से आसान ऑर्डर</b></div><div class="cat">🚚<b>घर तक डिलीवरी</b></div><div class="cat">💚<b>स्थानीय परिवारों की सुविधा</b></div>
+</div>
+</section>
+
+<section id="order">
+<div class="order">
+<h2>📲 WhatsApp पर ऑर्डर करें</h2>
+<p>नीचे अपना ऑर्डर संदेश भेजें। हमारा नंबर जोड़ने के बाद यह बटन सीधे WhatsApp खोलेगा।</p>
+<a class="btn secondary" id="wa" href="#" onclick="return waOrder()">💬 WhatsApp पर ऑर्डर करें</a>
+<p style="font-size:14px;opacity:.8">WhatsApp: 8409415144</p>
+</div>
+</section>
+</main>
+
+<footer>
+<b>🏠 घर बाजार</b><br>आपके परिवार का अपना बाजार<br><small>राशन + सब्जी + मछली + चिकन | केवल 3 KM डिलीवरी</small>
+</footer>
+<div id="toast"></div>
+
+<script>
+let items=[];
+function add(name){items.push(name);let t=document.getElementById('toast');t.textContent=name+' ऑर्डर में जोड़ दिया गया ✓';t.style.display='block';setTimeout(()=>t.style.display='none',1800);}
+function waOrder(){
+  // अपना WhatsApp नंबर नीचे बदलें: 91XXXXXXXXXX
+  const phone='918409415144';
+  const text='नमस्ते घर बाजार! मुझे ऑर्डर करना है।%0Aसामान: '+(items.length?items.join(', '):'कृपया उपलब्ध सामान की जानकारी दें')+'%0Aनाम:%0Aमोबाइल:%0Aपता/गाँव:%0Aडिलीवरी: सुबह / शाम';
+  if(phone.includes('X')){alert('पहले वेबसाइट के HTML में अपना WhatsApp नंबर डालें।');return false;}
+  window.open('https://wa.me/'+phone+'?text='+text,'_blank');return false;
+}
+</script>
+</body>
+</html>
