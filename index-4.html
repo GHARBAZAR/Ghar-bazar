@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>घर बाजार | राशन, सब्जी, मछली और चिकन Home Delivery</title>
+<meta name="description" content="घर बाजार से राशन, ताजी सब्जी, मछली और चिकन की 3 KM के अंदर होम डिलीवरी। WhatsApp से ऑर्डर करें।">
+<!-- अपना Google Search Console verification meta tag यहाँ रखें -->
+<style>
+*{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:#f6fbf7;color:#18321f}
+header{background:linear-gradient(135deg,#087f3d,#12a94b);color:#fff;padding:20px 16px;text-align:center}
+.logo{width:105px;height:105px;object-fit:contain;border-radius:50%;background:#fff;padding:3px;margin:auto;display:block}
+h1{margin:10px 0 4px;font-size:32px} .sub{margin:0;font-size:15px}
+.hero{padding:24px 16px;text-align:center;background:#fff} .hero h2{font-size:26px;margin:0 0 8px}
+.info{max-width:980px;margin:16px auto;padding:14px;background:#fff7d6;border-radius:14px;text-align:center;font-weight:600}
+.filters{display:flex;gap:8px;overflow:auto;padding:12px 16px;max-width:1100px;margin:auto}
+.filters button{border:0;border-radius:999px;padding:10px 16px;background:#e4eee7;font-weight:700;white-space:nowrap}
+.filters button.active{background:#087f3d;color:#fff}
+.grid{max-width:1100px;margin:0 auto;padding:8px 16px 35px;display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.card{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 18px #00000012;border:1px solid #e6eee8}
+.card img{width:100%;height:180px;object-fit:cover;display:block;background:#eee}
+.card-body{padding:13px} .tag{font-size:12px;background:#e8f6ec;color:#087f3d;padding:4px 8px;border-radius:20px;font-weight:700}
+.card h3{margin:9px 0 5px;font-size:19px} .price{margin:0 0 12px;font-size:17px;font-weight:800}
+.wa{display:block;text-align:center;background:#16a34a;color:white;text-decoration:none;padding:11px 8px;border-radius:10px;font-weight:800;font-size:14px}
+.delivery{max-width:1100px;margin:0 auto 30px;padding:20px 16px} .delivery-box{background:#fff;border-radius:16px;padding:18px;box-shadow:0 4px 18px #00000010}
+.delivery h2{margin-top:0} .cols{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.box{padding:13px;border-radius:12px;background:#f2f8f3} footer{background:#12351f;color:#fff;text-align:center;padding:22px 12px}
+@media(max-width:850px){.grid{grid-template-columns:repeat(2,1fr)}.cols{grid-template-columns:1fr}}
+@media(max-width:480px){.grid{gap:10px;padding:8px 10px 25px}.card img{height:145px}.card h3{font-size:17px}.wa{font-size:13px}h1{font-size:28px}}
+</style>
+</head>
+<body>
+<header>
+  <img class="logo" src="logo.png" alt="घर बाजार Logo"
+       onerror="this.style.display='none'">
+  <h1>घर बाजार</h1>
+  <p class="sub">आपके परिवार का अपना बाजार</p>
+</header>
+<section class="hero">
+  <h2>ताजा सामान, अब आपके घर तक! 🏠</h2>
+  <p>राशन + सब्जी + मछली + चिकन</p>
+  <p><b>📲 WhatsApp: <a href="https://wa.me/918409415144" target="_blank" rel="noopener" style="color:inherit">8409415144</a></b></p>
+</section>
+<div class="info">🚚 केवल 3 KM के अंदर Home Delivery • ₹300 या अधिक पर Delivery FREE</div>
+
+<div class="filters">
+  <button class="active" onclick="filterProducts('सभी',this)">सभी</button>
+  <button onclick="filterProducts('सब्जी',this)">🥬 सब्जी</button>
+  <button onclick="filterProducts('राशन',this)">🍚 राशन</button>
+  <button onclick="filterProducts('मछली',this)">🐟 मछली</button>
+  <button onclick="filterProducts('चिकन',this)">🍗 चिकन</button>
+</div>
+
+<main class="grid">
+
+      <article class="card" data-cat="सब्जी">
+        <img src="https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=700&q=80" alt="आलू" loading="lazy"
+             onerror="this.src='https://placehold.co/700x520?text=%E0%A4%86%E0%A4%B2%E0%A5%82'">
+        <div class="card-body">
+          <span class="tag">सब्जी</span>
+          <h3>आलू</h3>
+          <p class="price">₹30 / kg</p>
+          <a class="wa" href="https://wa.me/918409415144?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%98%E0%A4%B0%20%E0%A4%AC%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%B0%2C%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20%E0%A4%86%E0%A4%B2%E0%A5%82%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F%E0%A5%A4%20%E0%A4%95%E0%A5%83%E0%A4%AA%E0%A4%AF%E0%A4%BE%20%E0%A4%89%E0%A4%AA%E0%A4%B2%E0%A4%AC%E0%A5%8D%E0%A4%A7%E0%A4%A4%E0%A4%BE%20%E0%A4%94%E0%A4%B0%20%E0%A4%86%E0%A4%9C%20%E0%A4%95%E0%A5%80%20%E0%A4%95%E0%A5%80%E0%A4%AE%E0%A4%A4%20%E0%A4%AC%E0%A4%A4%E0%A4%BE%E0%A4%8F%E0%A4%82%E0%A5%A4" target="_blank" rel="noopener">💬 WhatsApp पर ऑर्डर करें</a>
+        </div>
+      </article>
+      <article class="card" data-cat="सब्जी">
+        <img src="https://images.unsplash.com/photo-1508747703725-719777637510?auto=format&fit=crop&w=700&q=80" alt="प्याज" loading="lazy"
+             onerror="this.src='https://placehold.co/700x520?text=%E0%A4%AA%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%9C'">
+        <div class="card-body">
+          <span class="tag">सब्जी</span>
+          <h3>प्याज</h3>
+          <p class="price">₹35 / kg</p>
+          <a class="wa" href="https://wa.me/918409415144?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%98%E0%A4%B0%20%E0%A4%AC%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%B0%2C%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20%E0%A4%AA%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%9C%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F%E0%A5%A4%20%E0%A4%95%E0%A5%83%E0%A4%AA%E0%A4%AF%E0%A4%BE%20%E0%A4%89%E0%A4%AA%E0%A4%B2%E0%A4%AC%E0%A5%8D%E0%A4%A7%E0%A4%A4%E0%A4%BE%20%E0%A4%94%E0%A4%B0%20%E0%A4%86%E0%A4%9C%20%E0%A4%95%E0%A5%80%20%E0%A4%95%E0%A5%80%E0%A4%AE%E0%A4%A4%20%E0%A4%AC%E0%A4%A4%E0%A4%BE%E0%A4%8F%E0%A4%82%E0%A5%A4" target="_blank" rel="noopener">💬 WhatsApp पर ऑर्डर करें</a>
+        </div>
+      </article>
+      <article class="card" data-cat="सब्जी">
+        <img src="https://images.unsplash.com/photo-1546094096-0df4bcaaa337?auto=format&fit=crop&w=700&q=80" alt="टमाटर" loading="lazy"
+             onerror="this.src='https://placehold.co/700x520?text=%E0%A4%9F%E0%A4%AE%E0%A4%BE%E0%A4%9F%E0%A4%B0'">
+        <div class="card-body">
+          <span class="tag">सब्जी</span>
+          <h3>टमाटर</h3>
+          <p class="price">₹40 / kg</p>
+          <a class="wa" href="https://wa.me/918409415144?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%98%E0%A4%B0%20%E0%A4%AC%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%B0%2C%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20%E0%A4%9F%E0%A4%AE%E0%A4%BE%E0%A4%9F%E0%A4%B0%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F%E0%A5%A4%20%E0%A4%95%E0%A5%83%E0%A4%AA%E0%A4%AF%E0%A4%BE%20%E0%A4%89%E0%A4%AA%E0%A4%B2%E0%A4%AC%E0%A5%8D%E0%A4%A7%E0%A4%A4%E0%A4%BE%20%E0%A4%94%E0%A4%B0%20%E0%A4%86%E0%A4%9C%20%E0%A4%95%E0%A5%80%20%E0%A4%95%E0%A5%80%E0%A4%AE%E0%A4%A4%20%E0%A4%AC%E0%A4%A4%E0%A4%BE%E0%A4%8F%E0%A4%82%E0%A5%A4" target="_blank" rel="noopener">💬 WhatsApp पर ऑर्डर करें</a>
+        </div>
+      </article>
+      <article class="card" data-cat="सब्जी">
+        <img src="https://images.unsplash.com/photo-1583024011937-0d4f2c0e6a7c?auto=format&fit=crop&w=700&q=80" alt="हरी मिर्च" loading="lazy"
+             onerror="this.src='https://placehold.co/700x520?text=%E0%A4%B9%E0%A4%B0%E0%A5%80%20%E0%A4%AE%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%9A'">
+        <div class="card-body">
+          <span class="tag">सब्जी</span>
+          <h3>हरी मिर्च</h3>
+          <p class="price">₹80 / kg</p>
+          <a class="wa" href="https://wa.me/918409415144?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%98%E0%A4%B0%20%E0%A4%AC%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%B0%2C%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20%E0%A4%B9%E0%A4%B0%E0%A5%80%20%E0%A4%AE%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%9A%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F%E0%A5%A4%20%E0%A4%95%E0%A5%83%E0%A4%AA%E0%A4%AF%E0%A4%BE%20%E0%A4%89%E0%A4%AA%E0%A4%B2%E0%A4%AC%E0%A5%8D%E0%A4%A7%E0%A4%A4%E0%A4%BE%20%E0%A4%94%E0%A4%B0%20%E0%A4%86%E0%A4%9C%20%E0%A4%95%E0%A5%80%20%E0%A4%95%E0%A5%80%E0%A4%AE%E0%A4%A4%20%E0%A4%AC%E0%A4%A4%E0%A4%BE%E0%A4%8F%E0%A4%82%E0%A5%A4" target="_blank" rel="noopener">💬 WhatsApp पर ऑर्डर करें</a>
+        </div>
+      </article>
+      <article class="card" data-cat="सब्जी">
+        <img src="https://images.unsplash.com/photo-1635363638580-c2809d049eee?auto=format&fit=crop&w=700&q=80" alt="भिंडी" loading="lazy"
+             onerror="this.src='https://placehold.co/700x520?text=%E0%A4%AD%E0%A4%BF%E0%A4%82%E0%A4%A1%E0%A5%80'">
+        <div class="card-body">
+          <span class="tag">सब्जी</span>
+          <h3>भिंडी</h3>
+          <p class="price">₹60 / kg</p>
+          <a class="wa" href="https://wa.me/918409415144?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%98%E0%A4%B0%20%E0%A4%AC%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%B0%2C%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20%E0%A4%AD%E0%A4%BF%E0%A4%82%E0%A4%A1%E0%A5%80%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F%E0%A5%A4%20%E0%A4%95%E0%A5%83%E0%A4%AA%E0%A4%AF%E0%A4%BE%20%E0%A4%89%E0%A4%AA%E0%A4%B2%E0%A4%AC%E0%A5%8D%E0%A4%A7%E0%A4%A4%E0%A4%BE%20%E0%A4%94%E0%A4%B0%20%E0%A4%86%E0%A4%9C%20%E0%A4%95%E0%A5%80%20%E0%A4%95%E0%A5%80%E0%A4%AE%E0%A4%A4%20%E0%A4%AC%E0%A4%A4%E0%A4%BE%E0%A4%8F%E0%A4%82%E0%A5%A4" target="_blank" rel="noopener">💬 WhatsApp पर ऑर्डर करें</a>
+        </div>
+      </article>
+      <article class="card" data-cat="सब्जी">
+        <img src="https://images.unsplash.com/photo-1615484477778-ca3b77940c25?auto=format&fit=crop&w=700&q=80" alt="बैंगन" loading="lazy"
+             onerror="this.src='https://placehold.co/700x520?text=%E0%A4%AC%E0%A5%88%E0%A4%82%E0%A4%97%E0%A4%A8'">
+        <div class="card-body">
+          <span class="tag">सब्जी</span>
+          <h3>बैंगन</h3>
+          <p class="price">₹45 / kg</p>
+          <a class="wa" href="https://wa.me/918409415144?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%98%E0%A4%B0%20%E0%A4%AC%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%B0%2C%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20%E0%A4%AC%E0%A5%88%E0%A4%82%E0%A4%97%E0%A4%A8%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F%E0%A5%A4%20%E0%A4%95%E0%A5%83%E0%A4%AA%E0%A4%AF%E0%A4%BE%20%E0%A4%89%E0%A4%AA%E0%A4%B2%E0%A4%AC%E0%A5%8D%E0%A4%A7%E0%A4%A4%E0%A4%BE%20%E0%A4%94%E0%A4%B0%20%E0%A4%86%E0%A4%9C%20%E0%A4%95%E0%A5%80%20%E0%A4%95%E0%A5%80%E0%A4%AE%E0%A4%A4%20%E0%A4%AC%E0%A4%A4%E0%A4%BE%E0%A4%8F%E0%A4%82%E0%A5%A4" target="_blank" rel="noopener">💬 WhatsApp पर ऑर्डर करें</a>
+        </div>
+      </article>
+      <article class="card" data-cat="सब्जी">
+        <img src="https://images.unsplash.com/photo-1568584711271-9c2c6d5a5b31?auto=format&fit=crop&w=700&q=80" alt="फूलगोभी" loading="lazy"
+             onerror="this.src='https://placehold.co/700x520?text=%E0%A4%AB%E0%A5%82%E0%A4%B2%E0%A4%97%E0%A5%8B%E0%A4%AD%E0%A5%80'">
+        <div class="card-body">
+          <span class="tag">सब्जी</span>
+          <h3>फूलगोभी</h3>
+          <p class="price">₹50 / kg</p>
+          <a class="wa" href="https://wa.me/918409415144?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%98%E0%A4%B0%20%E0%A4%AC%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%B0%2C%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20%E0%A4%AB%E0%A5%82%E0%A4%B2%E0%A4%97%E0%A5%8B%E0%A4%AD%E0%A5%80%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F%E0%A5%A4%20%E0%A4%95%E0%A5%83%E0%A4%AA%E0%A4%AF%E0%A4%BE%20%E0%A4%89%E0%A4%AA%E0%A4%B2%E0%A4%AC%E0%A5%8D%E0%A4%A7%E0%A4%A4%E0%A4%BE%20%E0%A4%94%E0%A4%B0%20%E0%A4%86%E0%A4%9C%20%E0%A4%95%E0%A5%80%20%E0%A4%95%E0%A5%80%E0%A4%AE%E0%A4%A4%20%E0%A4%AC%E0%A4%A4%E0%A4%BE%E0%A4%8F%E0%A4%82%E0%A5%A4" target="_blank" rel="noopener">💬 WhatsApp पर ऑर्डर करें</a>
+        </div>
+      </article>
+      <article class="card" data-cat="सब्जी">
+        <img src="https://images.unsplash.com/photo-1597362925123-77861d3fbac7?auto=format&fit=crop&w=700&q=80" alt="लौकी" loading="lazy"
+             onerror="this.src='https://placehold.co/700x520?text=%E0%A4%B2%E0%A5%8C%E0%A4%95%E0%A5%80'">
+        <div class="card-body">
+          <span class="tag">सब्जी</span>
+          <h3>लौकी</h3>
+          <p class="price">₹40 / kg</p>
+          <a class="wa" href="https://wa.me/918409415144?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%98%E0%A4%B0%20%E0%A4%AC%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%B0%2C%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20%E0%A4%B2%E0%A5%8C%E0%A4%95%E0%A5%80%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F%E0%A5%A4%20%E0%A4%95%E0%A5%83%E0%A4%AA%E0%A4%AF%E0%A4%BE%20%E0%A4%89%E0%A4%AA%E0%A4%B2%E0%A4%AC%E0%A5%8D%E0%A4%A7%E0%A4%A4%E0%A4%BE%20%E0%A4%94%E0%A4%B0%20%E0%A4%86%E0%A4%9C%20%E0%A4%95%E0%A5%80%20%E0%A4%95%E0%A5%80%E0%A4%AE%E0%A4%A4%20%E0%A4%AC%E0%A4%A4%E0%A4%BE%E0%A4%8F%E0%A4%82%E0%A5%A4" target="_blank" rel="noopener">💬 WhatsApp पर ऑर्डर करें</a>
+        </div>
+      </article>
+      <article class="card" data-cat="सब्जी">
+        <img src="https://images.unsplash.com/photo-1445282768818-728615cc910a?auto=format&fit=crop&w=700&q=80" alt="गाजर" loading="lazy"
+             onerror="this.src='https://placehold.co/700x520?text=%E0%A4%97%E0%A4%BE%E0%A4%9C%E0%A4%B0'">
+        <div class="card-body">
+          <span class="tag">सब्जी</span>
+          <h3>गाजर</h3>
+          <p class="price">₹60 / kg</p>
+          <a class="wa" href="https://wa.me/918409415144?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%98%E0%A4%B0%20%E0%A4%AC%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%B0%2C%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20%E0%A4%97%E0%A4%BE%E0%A4%9C%E0%A4%B0%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F%E0%A5%A4%20%E0%A4%95%E0%A5%83%E0%A4%AA%E0%A4%AF%E0%A4%BE%20%E0%A4%89%E0%A4%AA%E0%A4%B2%E0%A4%AC%E0%A5%8D%E0%A4%A7%E0%A4%A4%E0%A4%BE%20%E0%A4%94%E0%A4%B0%20%E0%A4%86%E0%A4%9C%20%E0%A4%95%E0%A5%80%20%E0%A4%95%E0%A5%80%E0%A4%AE%E0%A4%A4%20%E0%A4%AC%E0%A4%A4%E0%A4%BE%E0%A4%8F%E0%A4%82%E0%A5%A4" target="_blank" rel="noopener">💬 WhatsApp पर ऑर्डर करें</a>
+        </div>
+      </article>
+      <article class="card" data-cat="सब्जी">
+        <img src="https://images.unsplash.com/photo-1618375569909-3c8616cf7733?auto=format&fit=crop&w=700&q=80" alt="धनिया" loading="lazy"
+             onerror="this.src='https://placehold.co/700x520?text=%E0%A4%A7%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE'">
+        <div class="card-body">
+          <span class="tag">सब्जी</span>
+          <h3>धनिया</h3>
+          <p class="price">₹20 / bundle</p>
+          <a class="wa" href="https://wa.me/918409415144?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%98%E0%A4%B0%20%E0%A4%AC%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%B0%2C%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20%E0%A4%A7%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F%E0%A5%A4%20%E0%A4%95%E0%A5%83%E0%A4%AA%E0%A4%AF%E0%A4%BE%20%E0%A4%89%E0%A4%AA%E0%A4%B2%E0%A4%AC%E0%A5%8D%E0%A4%A7%E0%A4%A4%E0%A4%BE%20%E0%A4%94%E0%A4%B0%20%E0%A4%86%E0%A4%9C%20%E0%A4%95%E0%A5%80%20%E0%A4%95%E0%A5%80%E0%A4%AE%E0%A4%A4%20%E0%A4%AC%E0%A4%A4%E0%A4%BE%E0%A4%8F%E0%A4%82%E0%A5%A4" target="_blank" rel="noopener">💬 WhatsApp पर ऑर्डर करें</a>
+        </div>
+      </article>
+      <article class="card" data-cat="राशन">
+        <img src="https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?auto=format&fit=crop&w=700&q=80" alt="चावल" loading="lazy"
+             onerror="this.src='https://placehold.co/700x520?text=%E0%A4%9A%E0%A4%BE%E0%A4%B5%E0%A4%B2'">
+        <div class="card-body">
+          <span class="tag">राशन</span>
+          <h3>चावल</h3>
+          <p class="price">₹60 / kg</p>
+          <a class="wa" href="https://wa.me/918409415144?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%98%E0%A4%B0%20%E0%A4%AC%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%B0%2C%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20%E0%A4%9A%E0%A4%BE%E0%A4%B5%E0%A4%B2%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F%E0%A5%A4%20%E0%A4%95%E0%A5%83%E0%A4%AA%E0%A4%AF%E0%A4%BE%20%E0%A4%89%E0%A4%AA%E0%A4%B2%E0%A4%AC%E0%A5%8D%E0%A4%A7%E0%A4%A4%E0%A4%BE%20%E0%A4%94%E0%A4%B0%20%E0%A4%86%E0%A4%9C%20%E0%A4%95%E0%A5%80%20%E0%A4%95%E0%A5%80%E0%A4%AE%E0%A4%A4%20%E0%A4%AC%E0%A4%A4%E0%A4%BE%E0%A4%8F%E0%A4%82%E0%A5%A4" target="_blank" rel="noopener">💬 WhatsApp पर ऑर्डर करें</a>
+        </div>
+      </article>
+      <article class="card" data-cat="राशन">
+        <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=80" alt="आटा" loading="lazy"
+             onerror="this.src='https://placehold.co/700x520?text=%E0%A4%86%E0%A4%9F%E0%A4%BE'">
+        <div class="card-body">
+          <span class="tag">राशन</span>
+          <h3>आटा</h3>
+          <p class="price">₹45 / kg</p>
+          <a class="wa" href="https://wa.me/918409415144?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%98%E0%A4%B0%20%E0%A4%AC%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%B0%2C%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20%E0%A4%86%E0%A4%9F%E0%A4%BE%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F%E0%A5%A4%20%E0%A4%95%E0%A5%83%E0%A4%AA%E0%A4%AF%E0%A4%BE%20%E0%A4%89%E0%A4%AA%E0%A4%B2%E0%A4%AC%E0%A5%8D%E0%A4%A7%E0%A4%A4%E0%A4%BE%20%E0%A4%94%E0%A4%B0%20%E0%A4%86%E0%A4%9C%20%E0%A4%95%E0%A5%80%20%E0%A4%95%E0%A5%80%E0%A4%AE%E0%A4%A4%20%E0%A4%AC%E0%A4%A4%E0%A4%BE%E0%A4%8F%E0%A4%82%E0%A5%A4" target="_blank" rel="noopener">💬 WhatsApp पर ऑर्डर करें</a>
+        </div>
+      </article>
+      <article class="card" data-cat="राशन">
+        <img src="https://images.unsplash.com/photo-1515543904379-3d757afe72e4?auto=format&fit=crop&w=700&q=80" alt="दाल" loading="lazy"
+             onerror="this.src='https://placehold.co/700x520?text=%E0%A4%A6%E0%A4%BE%E0%A4%B2'">
+        <div class="card-body">
+          <span class="tag">राशन</span>
+          <h3>दाल</h3>
+          <p class="price">₹120 / kg</p>
+          <a class="wa" href="https://wa.me/918409415144?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%98%E0%A4%B0%20%E0%A4%AC%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%B0%2C%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20%E0%A4%A6%E0%A4%BE%E0%A4%B2%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F%E0%A5%A4%20%E0%A4%95%E0%A5%83%E0%A4%AA%E0%A4%AF%E0%A4%BE%20%E0%A4%89%E0%A4%AA%E0%A4%B2%E0%A4%AC%E0%A5%8D%E0%A4%A7%E0%A4%A4%E0%A4%BE%20%E0%A4%94%E0%A4%B0%20%E0%A4%86%E0%A4%9C%20%E0%A4%95%E0%A5%80%20%E0%A4%95%E0%A5%80%E0%A4%AE%E0%A4%A4%20%E0%A4%AC%E0%A4%A4%E0%A4%BE%E0%A4%8F%E0%A4%82%E0%A5%A4" target="_blank" rel="noopener">💬 WhatsApp पर ऑर्डर करें</a>
+        </div>
+      </article>
+      <article class="card" data-cat="राशन">
+        <img src="https://images.unsplash.com/photo-1515543904379-3d757afe72e4?auto=format&fit=crop&w=700&q=80" alt="चना" loading="lazy"
+             onerror="this.src='https://placehold.co/700x520?text=%E0%A4%9A%E0%A4%A8%E0%A4%BE'">
+        <div class="card-body">
+          <span class="tag">राशन</span>
+          <h3>चना</h3>
+          <p class="price">₹90 / kg</p>
+          <a class="wa" href="https://wa.me/918409415144?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%98%E0%A4%B0%20%E0%A4%AC%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%B0%2C%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20%E0%A4%9A%E0%A4%A8%E0%A4%BE%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F%E0%A5%A4%20%E0%A4%95%E0%A5%83%E0%A4%AA%E0%A4%AF%E0%A4%BE%20%E0%A4%89%E0%A4%AA%E0%A4%B2%E0%A4%AC%E0%A5%8D%E0%A4%A7%E0%A4%A4%E0%A4%BE%20%E0%A4%94%E0%A4%B0%20%E0%A4%86%E0%A4%9C%20%E0%A4%95%E0%A5%80%20%E0%A4%95%E0%A5%80%E0%A4%AE%E0%A4%A4%20%E0%A4%AC%E0%A4%A4%E0%A4%BE%E0%A4%8F%E0%A4%82%E0%A5%A4" target="_blank" rel="noopener">💬 WhatsApp पर ऑर्डर करें</a>
+        </div>
+      </article>
+      <article class="card" data-cat="राशन">
+        <img src="https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?auto=format&fit=crop&w=700&q=80" alt="चीनी" loading="lazy"
+             onerror="this.src='https://placehold.co/700x520?text=%E0%A4%9A%E0%A5%80%E0%A4%A8%E0%A5%80'">
+        <div class="card-body">
+          <span class="tag">राशन</span>
+          <h3>चीनी</h3>
+          <p class="price">₹50 / kg</p>
+          <a class="wa" href="https://wa.me/918409415144?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%98%E0%A4%B0%20%E0%A4%AC%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%B0%2C%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20%E0%A4%9A%E0%A5%80%E0%A4%A8%E0%A5%80%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F%E0%A5%A4%20%E0%A4%95%E0%A5%83%E0%A4%AA%E0%A4%AF%E0%A4%BE%20%E0%A4%89%E0%A4%AA%E0%A4%B2%E0%A4%AC%E0%A5%8D%E0%A4%A7%E0%A4%A4%E0%A4%BE%20%E0%A4%94%E0%A4%B0%20%E0%A4%86%E0%A4%9C%20%E0%A4%95%E0%A5%80%20%E0%A4%95%E0%A5%80%E0%A4%AE%E0%A4%A4%20%E0%A4%AC%E0%A4%A4%E0%A4%BE%E0%A4%8F%E0%A4%82%E0%A5%A4" target="_blank" rel="noopener">💬 WhatsApp पर ऑर्डर करें</a>
+        </div>
+      </article>
+      <article class="card" data-cat="राशन">
+        <img src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=700&q=80" alt="नमक" loading="lazy"
+             onerror="this.src='https://placehold.co/700x520?text=%E0%A4%A8%E0%A4%AE%E0%A4%95'">
+        <div class="card-body">
+          <span class="tag">राशन</span>
+          <h3>नमक</h3>
+          <p class="price">₹25 / kg</p>
+          <a class="wa" href="https://wa.me/918409415144?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%98%E0%A4%B0%20%E0%A4%AC%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%B0%2C%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20%E0%A4%A8%E0%A4%AE%E0%A4%95%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F%E0%A5%A4%20%E0%A4%95%E0%A5%83%E0%A4%AA%E0%A4%AF%E0%A4%BE%20%E0%A4%89%E0%A4%AA%E0%A4%B2%E0%A4%AC%E0%A5%8D%E0%A4%A7%E0%A4%A4%E0%A4%BE%20%E0%A4%94%E0%A4%B0%20%E0%A4%86%E0%A4%9C%20%E0%A4%95%E0%A5%80%20%E0%A4%95%E0%A5%80%E0%A4%AE%E0%A4%A4%20%E0%A4%AC%E0%A4%A4%E0%A4%BE%E0%A4%8F%E0%A4%82%E0%A5%A4" target="_blank" rel="noopener">💬 WhatsApp पर ऑर्डर करें</a>
+        </div>
+      </article>
+      <article class="card" data-cat="राशन">
+        <img src="https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=700&q=80" alt="सरसों तेल" loading="lazy"
+             onerror="this.src='https://placehold.co/700x520?text=%E0%A4%B8%E0%A4%B0%E0%A4%B8%E0%A5%8B%E0%A4%82%20%E0%A4%A4%E0%A5%87%E0%A4%B2'">
+        <div class="card-body">
+          <span class="tag">राशन</span>
+          <h3>सरसों तेल</h3>
+          <p class="price">₹150 / litre</p>
+          <a class="wa" href="https://wa.me/918409415144?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%98%E0%A4%B0%20%E0%A4%AC%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%B0%2C%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20%E0%A4%B8%E0%A4%B0%E0%A4%B8%E0%A5%8B%E0%A4%82%20%E0%A4%A4%E0%A5%87%E0%A4%B2%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F%E0%A5%A4%20%E0%A4%95%E0%A5%83%E0%A4%AA%E0%A4%AF%E0%A4%BE%20%E0%A4%89%E0%A4%AA%E0%A4%B2%E0%A4%AC%E0%A5%8D%E0%A4%A7%E0%A4%A4%E0%A4%BE%20%E0%A4%94%E0%A4%B0%20%E0%A4%86%E0%A4%9C%20%E0%A4%95%E0%A5%80%20%E0%A4%95%E0%A5%80%E0%A4%AE%E0%A4%A4%20%E0%A4%AC%E0%A4%A4%E0%A4%BE%E0%A4%8F%E0%A4%82%E0%A5%A4" target="_blank" rel="noopener">💬 WhatsApp पर ऑर्डर करें</a>
+        </div>
+      </article>
+      <article class="card" data-cat="राशन">
+        <img src="https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=700&q=80" alt="रिफाइंड तेल" loading="lazy"
+             onerror="this.src='https://placehold.co/700x520?text=%E0%A4%B0%E0%A4%BF%E0%A4%AB%E0%A4%BE%E0%A4%87%E0%A4%82%E0%A4%A1%20%E0%A4%A4%E0%A5%87%E0%A4%B2'">
+        <div class="card-body">
+          <span class="tag">राशन</span>
+          <h3>रिफाइंड तेल</h3>
+          <p class="price">₹140 / litre</p>
+          <a class="wa" href="https://wa.me/918409415144?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%98%E0%A4%B0%20%E0%A4%AC%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%B0%2C%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20%E0%A4%B0%E0%A4%BF%E0%A4%AB%E0%A4%BE%E0%A4%87%E0%A4%82%E0%A4%A1%20%E0%A4%A4%E0%A5%87%E0%A4%B2%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F%E0%A5%A4%20%E0%A4%95%E0%A5%83%E0%A4%AA%E0%A4%AF%E0%A4%BE%20%E0%A4%89%E0%A4%AA%E0%A4%B2%E0%A4%AC%E0%A5%8D%E0%A4%A7%E0%A4%A4%E0%A4%BE%20%E0%A4%94%E0%A4%B0%20%E0%A4%86%E0%A4%9C%20%E0%A4%95%E0%A5%80%20%E0%A4%95%E0%A5%80%E0%A4%AE%E0%A4%A4%20%E0%A4%AC%E0%A4%A4%E0%A4%BE%E0%A4%8F%E0%A4%82%E0%A5%A4" target="_blank" rel="noopener">💬 WhatsApp पर ऑर्डर करें</a>
+        </div>
+      </article>
+      <article class="card" data-cat="राशन">
+        <img src="https://images.unsplash.com/photo-1597318181409-cf64d0b5d8a2?auto=format&fit=crop&w=700&q=80" alt="चाय" loading="lazy"
+             onerror="this.src='https://placehold.co/700x520?text=%E0%A4%9A%E0%A4%BE%E0%A4%AF'">
+        <div class="card-body">
+          <span class="tag">राशन</span>
+          <h3>चाय</h3>
+          <p class="price">₹120 / 250g</p>
+          <a class="wa" href="https://wa.me/918409415144?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%98%E0%A4%B0%20%E0%A4%AC%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%B0%2C%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20%E0%A4%9A%E0%A4%BE%E0%A4%AF%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F%E0%A5%A4%20%E0%A4%95%E0%A5%83%E0%A4%AA%E0%A4%AF%E0%A4%BE%20%E0%A4%89%E0%A4%AA%E0%A4%B2%E0%A4%AC%E0%A5%8D%E0%A4%A7%E0%A4%A4%E0%A4%BE%20%E0%A4%94%E0%A4%B0%20%E0%A4%86%E0%A4%9C%20%E0%A4%95%E0%A5%80%20%E0%A4%95%E0%A5%80%E0%A4%AE%E0%A4%A4%20%E0%A4%AC%E0%A4%A4%E0%A4%BE%E0%A4%8F%E0%A4%82%E0%A5%A4" target="_blank" rel="noopener">💬 WhatsApp पर ऑर्डर करें</a>
+        </div>
+      </article>
+      <article class="card" data-cat="राशन">
+        <img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=700&q=80" alt="मसाला" loading="lazy"
+             onerror="this.src='https://placehold.co/700x520?text=%E0%A4%AE%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%BE'">
+        <div class="card-body">
+          <span class="tag">राशन</span>
+          <h3>मसाला</h3>
+          <p class="price">₹60 / 100g</p>
+          <a class="wa" href="https://wa.me/918409415144?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%98%E0%A4%B0%20%E0%A4%AC%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%B0%2C%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20%E0%A4%AE%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%BE%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F%E0%A5%A4%20%E0%A4%95%E0%A5%83%E0%A4%AA%E0%A4%AF%E0%A4%BE%20%E0%A4%89%E0%A4%AA%E0%A4%B2%E0%A4%AC%E0%A5%8D%E0%A4%A7%E0%A4%A4%E0%A4%BE%20%E0%A4%94%E0%A4%B0%20%E0%A4%86%E0%A4%9C%20%E0%A4%95%E0%A5%80%20%E0%A4%95%E0%A5%80%E0%A4%AE%E0%A4%A4%20%E0%A4%AC%E0%A4%A4%E0%A4%BE%E0%A4%8F%E0%A4%82%E0%A5%A4" target="_blank" rel="noopener">💬 WhatsApp पर ऑर्डर करें</a>
+        </div>
+      </article>
+      <article class="card" data-cat="मछली">
+        <img src="https://images.unsplash.com/photo-1534041684824-0f4f3b5a7f4f?auto=format&fit=crop&w=700&q=80" alt="रोहू" loading="lazy"
+             onerror="this.src='https://placehold.co/700x520?text=%E0%A4%B0%E0%A5%8B%E0%A4%B9%E0%A5%82'">
+        <div class="card-body">
+          <span class="tag">मछली</span>
+          <h3>रोहू</h3>
+          <p class="price">₹180 / kg</p>
+          <a class="wa" href="https://wa.me/918409415144?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%98%E0%A4%B0%20%E0%A4%AC%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%B0%2C%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20%E0%A4%B0%E0%A5%8B%E0%A4%B9%E0%A5%82%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F%E0%A5%A4%20%E0%A4%95%E0%A5%83%E0%A4%AA%E0%A4%AF%E0%A4%BE%20%E0%A4%89%E0%A4%AA%E0%A4%B2%E0%A4%AC%E0%A5%8D%E0%A4%A7%E0%A4%A4%E0%A4%BE%20%E0%A4%94%E0%A4%B0%20%E0%A4%86%E0%A4%9C%20%E0%A4%95%E0%A5%80%20%E0%A4%95%E0%A5%80%E0%A4%AE%E0%A4%A4%20%E0%A4%AC%E0%A4%A4%E0%A4%BE%E0%A4%8F%E0%A4%82%E0%A5%A4" target="_blank" rel="noopener">💬 WhatsApp पर ऑर्डर करें</a>
+        </div>
+      </article>
+      <article class="card" data-cat="मछली">
+        <img src="https://images.unsplash.com/photo-1510130387422-82bed34b37e9?auto=format&fit=crop&w=700&q=80" alt="कतला" loading="lazy"
+             onerror="this.src='https://placehold.co/700x520?text=%E0%A4%95%E0%A4%A4%E0%A4%B2%E0%A4%BE'">
+        <div class="card-body">
+          <span class="tag">मछली</span>
+          <h3>कतला</h3>
+          <p class="price">₹200 / kg</p>
+          <a class="wa" href="https://wa.me/918409415144?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%98%E0%A4%B0%20%E0%A4%AC%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%B0%2C%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20%E0%A4%95%E0%A4%A4%E0%A4%B2%E0%A4%BE%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F%E0%A5%A4%20%E0%A4%95%E0%A5%83%E0%A4%AA%E0%A4%AF%E0%A4%BE%20%E0%A4%89%E0%A4%AA%E0%A4%B2%E0%A4%AC%E0%A5%8D%E0%A4%A7%E0%A4%A4%E0%A4%BE%20%E0%A4%94%E0%A4%B0%20%E0%A4%86%E0%A4%9C%20%E0%A4%95%E0%A5%80%20%E0%A4%95%E0%A5%80%E0%A4%AE%E0%A4%A4%20%E0%A4%AC%E0%A4%A4%E0%A4%BE%E0%A4%8F%E0%A4%82%E0%A5%A4" target="_blank" rel="noopener">💬 WhatsApp पर ऑर्डर करें</a>
+        </div>
+      </article>
+      <article class="card" data-cat="मछली">
+        <img src="https://images.unsplash.com/photo-1551248429-40975aa4de74?auto=format&fit=crop&w=700&q=80" alt="मछली कट पीस" loading="lazy"
+             onerror="this.src='https://placehold.co/700x520?text=%E0%A4%AE%E0%A4%9B%E0%A4%B2%E0%A5%80%20%E0%A4%95%E0%A4%9F%20%E0%A4%AA%E0%A5%80%E0%A4%B8'">
+        <div class="card-body">
+          <span class="tag">मछली</span>
+          <h3>मछली कट पीस</h3>
+          <p class="price">₹220 / kg</p>
+          <a class="wa" href="https://wa.me/918409415144?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%98%E0%A4%B0%20%E0%A4%AC%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%B0%2C%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20%E0%A4%AE%E0%A4%9B%E0%A4%B2%E0%A5%80%20%E0%A4%95%E0%A4%9F%20%E0%A4%AA%E0%A5%80%E0%A4%B8%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F%E0%A5%A4%20%E0%A4%95%E0%A5%83%E0%A4%AA%E0%A4%AF%E0%A4%BE%20%E0%A4%89%E0%A4%AA%E0%A4%B2%E0%A4%AC%E0%A5%8D%E0%A4%A7%E0%A4%A4%E0%A4%BE%20%E0%A4%94%E0%A4%B0%20%E0%A4%86%E0%A4%9C%20%E0%A4%95%E0%A5%80%20%E0%A4%95%E0%A5%80%E0%A4%AE%E0%A4%A4%20%E0%A4%AC%E0%A4%A4%E0%A4%BE%E0%A4%8F%E0%A4%82%E0%A5%A4" target="_blank" rel="noopener">💬 WhatsApp पर ऑर्डर करें</a>
+        </div>
+      </article>
+      <article class="card" data-cat="मछली">
+        <img src="https://images.unsplash.com/photo-1544943910-4c1dc44aab44?auto=format&fit=crop&w=700&q=80" alt="साफ की हुई मछली" loading="lazy"
+             onerror="this.src='https://placehold.co/700x520?text=%E0%A4%B8%E0%A4%BE%E0%A4%AB%20%E0%A4%95%E0%A5%80%20%E0%A4%B9%E0%A5%81%E0%A4%88%20%E0%A4%AE%E0%A4%9B%E0%A4%B2%E0%A5%80'">
+        <div class="card-body">
+          <span class="tag">मछली</span>
+          <h3>साफ की हुई मछली</h3>
+          <p class="price">₹240 / kg</p>
+          <a class="wa" href="https://wa.me/918409415144?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%98%E0%A4%B0%20%E0%A4%AC%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%B0%2C%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20%E0%A4%B8%E0%A4%BE%E0%A4%AB%20%E0%A4%95%E0%A5%80%20%E0%A4%B9%E0%A5%81%E0%A4%88%20%E0%A4%AE%E0%A4%9B%E0%A4%B2%E0%A5%80%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F%E0%A5%A4%20%E0%A4%95%E0%A5%83%E0%A4%AA%E0%A4%AF%E0%A4%BE%20%E0%A4%89%E0%A4%AA%E0%A4%B2%E0%A4%AC%E0%A5%8D%E0%A4%A7%E0%A4%A4%E0%A4%BE%20%E0%A4%94%E0%A4%B0%20%E0%A4%86%E0%A4%9C%20%E0%A4%95%E0%A5%80%20%E0%A4%95%E0%A5%80%E0%A4%AE%E0%A4%A4%20%E0%A4%AC%E0%A4%A4%E0%A4%BE%E0%A4%8F%E0%A4%82%E0%A5%A4" target="_blank" rel="noopener">💬 WhatsApp पर ऑर्डर करें</a>
+        </div>
+      </article>
+      <article class="card" data-cat="चिकन">
+        <img src="https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&w=700&q=80" alt="पूरा चिकन" loading="lazy"
+             onerror="this.src='https://placehold.co/700x520?text=%E0%A4%AA%E0%A5%82%E0%A4%B0%E0%A4%BE%20%E0%A4%9A%E0%A4%BF%E0%A4%95%E0%A4%A8'">
+        <div class="card-body">
+          <span class="tag">चिकन</span>
+          <h3>पूरा चिकन</h3>
+          <p class="price">₹220 / kg</p>
+          <a class="wa" href="https://wa.me/918409415144?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%98%E0%A4%B0%20%E0%A4%AC%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%B0%2C%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20%E0%A4%AA%E0%A5%82%E0%A4%B0%E0%A4%BE%20%E0%A4%9A%E0%A4%BF%E0%A4%95%E0%A4%A8%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F%E0%A5%A4%20%E0%A4%95%E0%A5%83%E0%A4%AA%E0%A4%AF%E0%A4%BE%20%E0%A4%89%E0%A4%AA%E0%A4%B2%E0%A4%AC%E0%A5%8D%E0%A4%A7%E0%A4%A4%E0%A4%BE%20%E0%A4%94%E0%A4%B0%20%E0%A4%86%E0%A4%9C%20%E0%A4%95%E0%A5%80%20%E0%A4%95%E0%A5%80%E0%A4%AE%E0%A4%A4%20%E0%A4%AC%E0%A4%A4%E0%A4%BE%E0%A4%8F%E0%A4%82%E0%A5%A4" target="_blank" rel="noopener">💬 WhatsApp पर ऑर्डर करें</a>
+        </div>
+      </article>
+      <article class="card" data-cat="चिकन">
+        <img src="https://images.unsplash.com/photo-1587593810167-a84920ea0781?auto=format&fit=crop&w=700&q=80" alt="Curry Cut चिकन" loading="lazy"
+             onerror="this.src='https://placehold.co/700x520?text=Curry%20Cut%20%E0%A4%9A%E0%A4%BF%E0%A4%95%E0%A4%A8'">
+        <div class="card-body">
+          <span class="tag">चिकन</span>
+          <h3>Curry Cut चिकन</h3>
+          <p class="price">₹240 / kg</p>
+          <a class="wa" href="https://wa.me/918409415144?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%98%E0%A4%B0%20%E0%A4%AC%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%B0%2C%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20Curry%20Cut%20%E0%A4%9A%E0%A4%BF%E0%A4%95%E0%A4%A8%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F%E0%A5%A4%20%E0%A4%95%E0%A5%83%E0%A4%AA%E0%A4%AF%E0%A4%BE%20%E0%A4%89%E0%A4%AA%E0%A4%B2%E0%A4%AC%E0%A5%8D%E0%A4%A7%E0%A4%A4%E0%A4%BE%20%E0%A4%94%E0%A4%B0%20%E0%A4%86%E0%A4%9C%20%E0%A4%95%E0%A5%80%20%E0%A4%95%E0%A5%80%E0%A4%AE%E0%A4%A4%20%E0%A4%AC%E0%A4%A4%E0%A4%BE%E0%A4%8F%E0%A4%82%E0%A5%A4" target="_blank" rel="noopener">💬 WhatsApp पर ऑर्डर करें</a>
+        </div>
+      </article>
+      <article class="card" data-cat="चिकन">
+        <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=700&q=80" alt="साफ किया हुआ चिकन" loading="lazy"
+             onerror="this.src='https://placehold.co/700x520?text=%E0%A4%B8%E0%A4%BE%E0%A4%AB%20%E0%A4%95%E0%A4%BF%E0%A4%AF%E0%A4%BE%20%E0%A4%B9%E0%A5%81%E0%A4%86%20%E0%A4%9A%E0%A4%BF%E0%A4%95%E0%A4%A8'">
+        <div class="card-body">
+          <span class="tag">चिकन</span>
+          <h3>साफ किया हुआ चिकन</h3>
+          <p class="price">₹250 / kg</p>
+          <a class="wa" href="https://wa.me/918409415144?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%98%E0%A4%B0%20%E0%A4%AC%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%B0%2C%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20%E0%A4%B8%E0%A4%BE%E0%A4%AB%20%E0%A4%95%E0%A4%BF%E0%A4%AF%E0%A4%BE%20%E0%A4%B9%E0%A5%81%E0%A4%86%20%E0%A4%9A%E0%A4%BF%E0%A4%95%E0%A4%A8%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F%E0%A5%A4%20%E0%A4%95%E0%A5%83%E0%A4%AA%E0%A4%AF%E0%A4%BE%20%E0%A4%89%E0%A4%AA%E0%A4%B2%E0%A4%AC%E0%A5%8D%E0%A4%A7%E0%A4%A4%E0%A4%BE%20%E0%A4%94%E0%A4%B0%20%E0%A4%86%E0%A4%9C%20%E0%A4%95%E0%A5%80%20%E0%A4%95%E0%A5%80%E0%A4%AE%E0%A4%A4%20%E0%A4%AC%E0%A4%A4%E0%A4%BE%E0%A4%8F%E0%A4%82%E0%A5%A4" target="_blank" rel="noopener">💬 WhatsApp पर ऑर्डर करें</a>
+        </div>
+      </article>
+</main>
+
+<section class="delivery">
+ <div class="delivery-box">
+  <h2>🚚 Delivery जानकारी</h2>
+  <div class="cols">
+   <div class="box"><b>सुबह</b><br>Order: 7:00–10:00<br>Delivery: 10:00–12:00</div>
+   <div class="box"><b>शाम</b><br>Order: 2:00–4:00<br>Delivery: 4:00–6:30</div>
+   <div class="box"><b>Delivery Charge</b><br>₹100 से कम: ₹10<br>₹100–₹299: ₹5<br>₹300+: FREE</div>
+  </div>
+ </div>
+</section>
+
+<footer>
+  <b>घर बाजार</b><br>
+  WhatsApp: 8409415144<br>
+  आपके परिवार का अपना बाजार
+</footer>
+
+<script>
+function filterProducts(cat,btn){
+ document.querySelectorAll('.filters button').forEach(b=>b.classList.remove('active'));
+ btn.classList.add('active');
+ document.querySelectorAll('.card').forEach(c=>{
+   c.style.display = (cat==='सभी' || c.dataset.cat===cat) ? '' : 'none';
+ });
+}
+</script>
+</body>
+</html>
